@@ -1,0 +1,14 @@
+<div *ngIf="trip">
+    <img [src]="trip.image" [alt]="trip.title" class="trip-image" />
+    <h1>{{ trip.title }}</h1>
+    <p>{{ trip.description }}</p>
+    <p><strong>Price:</strong> {{ trip.price_from }} {{ trip.currency }}</p>
+    <h4>Inclusions:</h4>
+    <ul>
+      <li *ngFor="let item of trip.inclusions">{{ item }}</li>
+    </ul>
+  </div>
+  <div *ngIf="!trip">
+    <p>Loading trip details...</p>
+  </div>
+  

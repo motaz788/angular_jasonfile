@@ -1,0 +1,57 @@
+.trip-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.trip-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trip-card h2 {
+  margin-top: 0;
+  color: #0073e6;
+}
+
+.trip-card p {
+  color: #555;
+}
+
+.trip-card h4 {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.trip-card ul {
+  padding-left: 20px;
+  color: #333;
+}
+
+.trip-card ul li {
+  margin-bottom: 5px;
+}
+
+.trip-card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+.trip-image {
+  width: 100%; /* Make the image responsive */
+  max-width: 100%; /* Set a maximum width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  margin-bottom: 16px; /* Add spacing below the image */
+  object-fit: cover; /* Ensure the image fits within its bounds */
+}

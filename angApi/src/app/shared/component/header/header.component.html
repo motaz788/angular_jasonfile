@@ -1,0 +1,17 @@
+<div class="trip-container">
+  <h1>Available Trips</h1>
+  <div class="row">
+    
+  <div class="trip-card" *ngFor="let trip of trips">
+    <img [src]="trip.image" [alt]="trip.imagetitle" class="trip-image" />
+    <h2>{{ trip.description }}</h2>
+    <p><strong>Price:</strong> {{ trip.pricePerPerson }} EUR per person</p>
+    <p>{{ trip.description }}</p>
+    <h4>What's Included:</h4>
+    <ul>
+      <li *ngFor="let item of trip.included">{{ item }}</li>
+    </ul>
+    <p><strong>Languages Available:</strong> {{ trip.languageOptions }}</p>
+  </div>
+</div>
+</div>

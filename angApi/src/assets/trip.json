@@ -1,0 +1,111 @@
+{
+    "trips": [
+      {
+        "id": 1,
+        "destination": "Cairo",
+        "image":"assets/images/cairo.jpg",
+        "imagetitle": "cairo full day trip",
+
+        "pricePerPerson": 191,
+        "description": "A full-day trip to Cairo including all meals, drinks, and entrance fees. Passengers won't have to pay anything extra.",
+        "included": [
+          "Meals",
+          "Drinks",
+          "Entrance fees"
+        ],
+        "languageOptions": ["English", "German", "Arabic"]
+      },
+      {
+        "id": 2,
+        "destination": "Luxor",
+        "image": "assets/images/luxor.jpg",
+        "imagetitle": "luxor trip",
+
+
+        "pricePerPerson": 121,
+        "description": "Private trip to Luxor for a group of six people with comfortable bus seats and local guides.",
+        "included": [
+          "Transportation",
+          "Local Czech-speaking guide",
+          "Russian-speaking guide"
+        ],
+        "languageOptions": ["Czech", "Russian", "English"]
+      },
+      {
+        "id": 3,
+        "destination": "El Quseir",
+        "image": "assets/images/elqusier.jpg",
+        "imagetitle": "ElQusier city Trip",
+
+        "pricePerPerson": 50,
+        "description": "Explore Ottoman-era sites, local attractions, and guided shopping experiences.",
+        "included": [
+          "Guided shopping",
+          "Historical tour",
+          "Transportation"
+        ],
+        "languageOptions": ["German", "English", "Arabic"]
+      },
+      {
+        "id": 4,
+        "destination": "Quad Adventure",
+        "image": "assets/images/safari.jpg",
+        "imagetitle": "quad safari trip",
+
+        "pricePerPerson": 21,
+        "description": "Quad trips with a private group option at no additional cost.",
+        "included": [
+          "Quads",
+          "Safety gear",
+          "Guide"
+        ],
+        "languageOptions": ["English", "Arabic"]
+      },
+      {
+        "id": 5,
+        "destination": "Snorkeling with Turtles",
+        "image": "assets/images/marsa.jpg",
+        "imagetitle": "Marsa Mubarak and Elshone",
+
+        "pricePerPerson": 45,
+        "description": "Snorkeling trip including food, drinks, snorkeling gear, and a Russian-speaking guide.",
+        "included": [
+          "Snorkeling gear",
+          "Meals and drinks",
+          "Guide"
+        ],
+        "languageOptions": ["Russian", "English"]
+      },
+      {
+        "id": 6,
+        "destination": "Dolphin Trip",
+        "image": "assets/images/dolphine.jpg",
+        "imagetitle": "Dolphine house trip",
+
+        "pricePerPerson": 51,
+        "description": "Dolphin trip with meals and guide included.",
+        "included": [
+          "Meals",
+          "Drinks",
+          "Guide"
+        ],
+        "languageOptions": ["English", "German"]
+      },
+      {
+        "id": 7,
+        "destination": "Safari Adventure",
+        "image": "assets/images/superafari.jpg",
+        "imagetitle": "quad safari ",
+
+        "pricePerPerson": 51,
+        "description": "Experience a safari adventure with meals included.",
+        "included": [
+          "Safari vehicle",
+          "Meals",
+          "Guide"
+        ],
+        "languageOptions": ["English", "Arabic"]
+      }
+    ]
+  }
+  
